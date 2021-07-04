@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.container_parent {
+    height: 750px;
+    
+    background-image: url(img/backgrounds/bg\ parent\ container.jpg);
+}
+
+.header {
+    padding-top: 52px;
+}
+
+.container_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__link {
+    margin-right: 49px;
+    
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+
+    transition: 0.5s;
+}
+
+.header__link:hover {
+    color: #061e37;
+}
+
+.header__link-last {
+    margin-right: 0px;
+}
+
+.header__button {
+    width: 80px;
+    height: 25px;
+
+    font-size: 14px;
+    color: #ffffff;
+
+    border-radius: 5%;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-style: solid;
+    
+    background: Transparent;
+
+    transition: 0.4s;
+}
+
+.header__button:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    margin-top: 170px;
+}
+
+.container_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.invitation {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__title {
+    max-width: 420px;
+    
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.main__text {
+    max-width: 530px;
+
+    margin-bottom: 38px;
+
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.form {
+    display: flex;
+}
+
+.main__button {
+    height: 55px;
+
+    border-radius: 5%;
+    border: none;
+
+    font-size: 14px;
+
+    transition: 0.4s;
+}
+
+.main__button:hover {
+    transform: scale(1.2);
+}
+
+.main__button_left {
+    width: 150px;
+    
+    color: #eef0f2;
+
+    background: #061e37;
+}
+
+.main__button_right {
+    width: 160px;
+
+    margin-left: 30px;
+    
+    color: #061e37;
+    font-weight: bold;
+
+    background: #ffffff;
+}
+
+.video {
+    width: 600px;
+    height: 320px;
+
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 1%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #ffffff;
+}
