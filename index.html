@@ -12,16 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="container_parent">
+    <section class="container--parent">
         <header class="header">
-            <div class="container container_header">
+            <div class="wrapper wrapper--header">
                 <img src="img/header/logo.png" alt="логотип" class="header__logo">
-                <nav class="header__menu">
-                    <a href="#home" class="header__link">Home</a>
-                    <a href="#" class="header__link">Service</a>
-                    <a href="#" class="header__link">Extension</a>
-                    <a href="#" class="header__link">Pricing</a>
-                    <a href="#" class="header__link">Help</a>
+                <nav class="menu">
+                    <a href="#home" class="link">Home</a>
+                    <a href="#services" class="link">Service</a>
+                    <a href="#extension" class="link">Extension</a>
+                    <a href="#team" class="link link--last">Team</a>
                 </nav>
                 <form action="https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp">
                     <button class="header__button" href="">
@@ -30,8 +29,8 @@
                 </form>
             </div>
         </header>
-        <div class="main">
-            <div class="container container_main">
+        <main class="main">
+            <div class="wrapper wrapper--main">
                 <div class="invitation">
                     <h1 class="main__title">
                         LOREM IPSUM DOLOR SIT AMET
@@ -43,37 +42,37 @@
                         voluptatum perferendis tempore placea
                     </p>
                     <form action="https://aliexpress.ru/" class="form">
-                        <button class="main__button main__button_left">
+                        <button class="main__button main__button--left">
                             BUY NOW
                         </button>
-                        <button class="main__button main__button_right">
+                        <button class="main__button main__button--right">
                             TRY FOR FREE
                         </button>
                     </form>
                 </div>
                 <div class="video">
                     <p class="video__text">
-                        тут должно быть видео
+                        тут должно быть видео                         
                     </p>
                 </div>
             </div>
-        </div>
+        </main>
     </section>
     <section class="home" id="home">
-        <div class="container container_home">
-            <h2 class="home__title">
+        <div class="wrapper wrapper--home">
+            <h2 class="title home__title">
                 Easy & Useful
             </h2>
             <h3 class="home__subtitle">
                 Project Managment Tool
             </h3>
-            <p class="home__text">
+            <p class="text home__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing 
                 elit. Ad laboriosam dolores labore provident 
                 possimus? Tempora incidunt obcaecati, excepturi 
                 dicta ratione nisi totam 
             </p>
-            <div class="container_row">
+            <div class="wrapper--row">
                 <div class="column">
                     <img class="column__icon" src="img/home/calendar.png" alt="иконка календаря">
                     <h2 class="column__title">Title Goes Here</h2>
@@ -116,5 +115,277 @@
             </form>
         </div>
     </section>
+    <section class="ads">
+        <div class="ads__container ads__container--cyan">
+            <img class="ads__container__img" src="img/ads/01.png" alt="фото зданий">
+            <div class="ads__container__text-wrapper">
+                <p class="ads__container__text">
+                    12000+
+                </p>
+                <p class="ads__container__text">
+                    Business
+                </p>
+            </div>
+        </div>
+        <div class="ads__container ads__container--blue">
+            <img class="ads__container__img" src="img/ads/02.png" alt="фото установки">
+            <div class="ads__container__text-wrapper">
+                <p class="ads__container__text">
+                    60000+
+                </p>
+                <p class="ads__container__text">
+                    Downloads
+                </p>
+            </div>
+        </div>
+        <div class="ads__container ads__container--purple">
+            <img class="ads__container__img" src="img/ads/03.png" alt="фото человечка">
+            <div class="ads__container__text-wrapper">
+                <p class="ads__container__text">
+                    30000+
+                </p>
+                <p class="ads__container__text">
+                    Free Installs
+                </p>
+            </div>
+        </div>
+        <div class="ads__container ads__container--pink">
+            <img class="ads__container__img" src="img/ads/04.png" alt="фото установки">
+            <div class="ads__container__text-wrapper">
+                <p class="ads__container__text">
+                    40000+
+                </p>
+                <p class="ads__container__text">
+                    Pro Users
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="title services__title">
+            Services
+        </h2>
+        <p class="text services__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+            eiusmod tempor incididunt ut labore et dolore magna
+        </p>
+
+        <div class="services__tables">
+            <details class="table services__tables__table">
+                <summary class="table__title__container">
+                    <img class="table__icon" src="img/services/1.png" alt="иконка статистики">
+                    <h3 class="table__title">
+                        STATISTICS
+                    </h3>
+                </summary>
+                <div class="table__footer">
+                    <img class="table__img" src="img/services/01.png" alt="книжка с аайфоном">
+                    <span class="text__wrapper">
+                        <p class="text table__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            aliqua. Ut enim ad minim veniam, 
+                        </p>        
+                        <p class="text table__text table__text--down">
+                            quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
+                            aute irure dolor in reprehenderit in
+                        </p>
+                    </span>
+                </div>
+            </details>
+            <details class="table services__tables__table">
+                <summary class="table__title__container">
+                    <img class="table__icon" src="img/services/2.png" alt="иконка письма">
+                    <h3 class="table__title">
+                        INBOX
+                    </h3>
+                </summary>
+                <div class="table__footer">
+                    <img class="table__img" src="img/services/01.png" alt="книжка с аайфоном">
+                    <span class="text__wrapper">
+                        <p class="text table__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            aliqua. Ut enim ad minim veniam, 
+                        </p>        
+                        <p class="text table__text table__text--down">
+                            quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
+                            aute irure dolor in reprehenderit in
+                        </p>
+                    </span>
+                </div>
+            </details>
+            <details class="table services__tables__table">
+                <summary class="table__title__container">
+                    <img class="table__icon" src="img/services/3.png" alt="иконка человеков">
+                    <h3 class="table__title">
+                        TEAM
+                    </h3>
+                </summary>
+                <div class="table__footer">
+                    <img class="table__img" src="img/services/01.png" alt="книжка с аайфоном">
+                    <span class="text__wrapper">
+                        <p class="text table__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            aliqua. Ut enim ad minim veniam, 
+                        </p>        
+                        <p class="text table__text table__text--down">
+                            quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
+                            aute irure dolor in reprehenderit in
+                        </p>
+                    </span>
+                </div>
+            </details>
+            <details class="table services__tables__table">
+                <summary class="table__title__container">
+                    <img class="table__icon" src="img/services/4.png" alt="иконка шестеренок">
+                    <h3 class="table__title">
+                        SETTINGS
+                    </h3>
+                </summary>
+                <div class="table__footer">
+                    <img class="table__img" src="img/services/01.png" alt="книжка с аайфоном">
+                    <span class="text__wrapper">
+                        <p class="text table__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            aliqua. Ut enim ad minim veniam, 
+                        </p>        
+                        <p class="text table__text table__text--down">
+                            quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
+                            aute irure dolor in reprehenderit in
+                        </p>
+                    </span>
+                </div>
+            </details>
+            <details class="table services__tables__table">
+                <summary class="table__title__container">
+                    <img class="table__icon" src="img/services/5.png" alt="иконка радио-волн">
+                    <h3 class="table__title">
+                        FEED
+                    </h3>
+                </summary>
+                <div class="table__footer">
+                    <img class="table__img" src="img/services/01.png" alt="книжка с аайфоном">
+                    <span class="text__wrapper">
+                        <p class="text table__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                            aliqua. Ut enim ad minim veniam, 
+                        </p>        
+                        <p class="text table__text table__text--down">
+                            quis nostrud exercitation 
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
+                            aute irure dolor in reprehenderit in
+                        </p>
+                    </span>
+                </div>
+            </details>
+        </div>
+    </section>
+    <section id="extension" class="extension">
+        <div class="wrapper wrapper--extension">
+            <div class="extension__container extension__container--left">
+                <h2 class="title extension__title">
+                    What our customers have to say about us.
+                </h2>
+                <p class="text extension__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+                <form class="extension__form" action="http://snake.io/">
+                <button class="extension__form__button">
+                    GET STARTED
+                </button>
+            </form>
+            </div>
+            <div class="extension__container extension__container--right">
+                <div class="extension__name_tables_container name_tables_container">
+                    <img src="img/extension/1.png" alt="фото парня" class="avatar">
+                    <div class="name_tables_container__name_table">
+                        <h3 class="name_table__name">
+                            John Doe
+                        </h3>
+                        <p class="name_table__description">
+                            Lorem ipsum dolor sit amet, consectetur 
+                            adipisicing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna 
+                            aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea
+                        </p>
+                    </div>
+                </div>
+                <div class="extension__name_tables_container extension__name_tables_container--down name_tables_container">
+                    <img src="img/extension/2.png" alt="фото девушки" class="avatar">
+                    <div class="name_tables_container__name_table">
+                        <h3 class="name_table__name">
+                            Khalessi
+                        </h3>
+                        <p class="name_table__description">
+                            Lorem ipsum dolor sit amet, consectetur 
+                            adipisicing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna 
+                            aliqua. Ut enim ad minim veniam, quis 
+                            nostrud exercitation ullamco laboris 
+                            nisi ut aliquip ex ea
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="team">
+        <h2 class="title team__title">
+            Our Team
+        </h2>
+        <p class="text team__text team__text--top">
+            Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit, sed do eiusmod tempor incididunt ut labore et 
+            dolore magna
+        </p>
+        <div class="team__avatar_container avatar_container">
+            <img src="img/team/1.jpg" alt="фото девушки слева" class="avatar_container__avatar">
+            <img src="img/team/2.jpg" alt="фото девушки посередине" class="avatar_container__avatar">
+            <img src="img/team/3.jpg" alt="фото парня справа" class="avatar_container__avatar">
+        </div>
+        <p class="text team__text team__text--bottom">
+            Lorem ipsum dolor sit amet, consectetur adipisicing 
+            elit, sed do eiusmod tempor incididunt ut labore et 
+            dolore magnaLorem ipsum dolor sit amet, consectetur 
+            adipisicing elit, sed do eiusmod tempor incididunt 
+        </p>
+        <div class="social_network_container">
+            <a href="https://twitter.com/?lang=ru"><img src="img/team/01.png" alt="твиттер" class="social_network"></a>
+            <a href="https://ru-ru.facebook.com/"><img src="img/team/02.png" alt="фейсбук" class="social_network"></a>
+            <a href="https://www.linkedin.com/"><img src="img/team/03.png" alt="in какой то" class="social_network"></a>
+            <a href="https://www.nba.com/bulls/"><img src="img/team/04.png" alt="баскетбольный мячик" class="social_network"></a>
+            <a href="https://www.behance.net/"><img src="img/team/05.png" alt="be какой то" class="social_network"></a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="nav_container">
+                <img src="img/header/logo.png" alt="логотип" class="header__logo">
+                <nav class="menu">
+                    <a href="#home" class="link">Home</a>
+                    <a href="#services" class="link">Service</a>
+                    <a href="#extension" class="link">Extension</a>
+                    <a href="#team" class="link link--last">Team</a>
+                </nav>
+            </div>
+            <div class="social_network_container social_network_container--footer">
+                <a href="https://twitter.com/?lang=ru"><img src="img/team/01.png" alt="твиттер" class="social_network"></a>
+                <a href="https://ru-ru.facebook.com/"><img src="img/team/02.png" alt="фейсбук" class="social_network"></a>
+                <a href="https://www.linkedin.com/"><img src="img/team/03.png" alt="in какой то" class="social_network"></a>
+                <a href="https://www.nba.com/bulls/"><img src="img/team/04.png" alt="баскетбольный мячик" class="social_network"></a>
+                <a href="https://www.behance.net/"><img src="img/team/05.png" alt="be какой то" class="social_network"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
